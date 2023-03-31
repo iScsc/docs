@@ -1,0 +1,21 @@
+0000000000001149 <main>:
+    1149:	f3 0f 1e fa          	endbr64 
+    114d:	55                   	push   rbp
+    114e:	48 89 e5             	mov    rbp,rsp
+    1151:	48 8d 05 ac 0e 00 00 	lea    rax,[rip+0xeac]        # 2004 <_IO_stdin_used+0x4>
+    1158:	48 89 c7             	mov    rdi,rax
+    115b:	b8 00 00 00 00       	mov    eax,0x0
+    1160:	e8 eb fe ff ff       	call   1050 <printf@plt>
+    1165:	b8 00 00 00 00       	mov    eax,0x0
+    116a:	5d                   	pop    rbp
+    116b:	c3                   	ret    
+
+Déassemblage de la section .fini :
+
+000000000000116c <_fini>:
+    116c:	f3 0f 1e fa          	endbr64 
+    1170:	48 83 ec 08          	sub    rsp,0x8
+    1174:	48 83 c4 08          	add    rsp,0x8
+    1178:	c3                   	ret    
+
+Déassemblage de la section .rodata :
