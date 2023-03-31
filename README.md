@@ -5,9 +5,12 @@
 <!-- Shields -->
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-## **About The Project**
+## **Contributing**
 
-TODO
+If you wish to contribute, follows these steps:
+
+- Write a Markdown file following the `CommonMark` standard.
+- Add to `SUMMARY.md` file the following line `- [Short title](filename.md)`.
 
 ## **Usage**
 
