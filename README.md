@@ -1,6 +1,6 @@
-# `chimera-os/docs` - Documentation & useful ressources for the development of Chimera-OS
+# `@Iscsc/docs` - Documentation, tutorials & useful resources
 
-[**Submit a PR**](https://github.com/chimera-os/docs/pulls) - [**Report a bug**](https://github.com/chimera-os/docs/issues) - [**Explore the docs »**](https://github.com/chimera-os/docstree/main/src)
+[**Submit a PR**](https://github.com/iScsc/docs/pulls) - [**Report an error**](https://github.com/iScsc/docs/issues) - [**Explore the docs »**](https://github.com/iScsc/docs/tree/master/src)
 
 <!-- Shields -->
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -13,15 +13,18 @@ TODO
 
 This book is built using the `mdbook` utility (see [`mdbook` official documentation](https://rust-lang.github.io/mdBook/) for more information). Before building this book, you need to install [`rust`](https://www.rust-lang.org/). Once `rust` is installed on your machine, run `cargo install mdbook`. To read this book in a browser, simply use `mdbook serve --open`.
 
-## **ToDo-List**
+<!-- ## **ToDo-List**
 
 Here are the few things that need to be done:
 
 - [ ] Detailled LFS build instructions
-- [ ] Host system preparation instructions **& scripts** (`version-check.sh`, `install-package.sh`, `virtualbox-create.sh`)
+- [ ] Host system preparation instructions **& scripts** (`version-check.sh`, `install-package.sh`, `virtualbox-create.sh`) -->
 
-<!-- LICENSE -->
 ## **License**
+
+*This part is related to OS-development, more specifically work based on the Linux From Scratch Project.*
+
+---
 
 :warning: **This work is not endorsed by the Linux from Scratch project or any of the third-parties mentioned in the [Acknowledgments & Bibliography](#acknowledgments--bibliography) section.**
 
