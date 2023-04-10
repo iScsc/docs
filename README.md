@@ -12,6 +12,8 @@ If you wish to contribute, follows these steps:
 - Write a Markdown file following the `CommonMark` standard.
 - Add to `SUMMARY.md` file the following line `- [Short title](filename.md)`.
 
+If you want to add references to programs and scripts, you can put them in `scripts` folder.
+
 ## **Usage**
 
 This book is built using the `mdbook` utility (see [`mdbook` official documentation](https://rust-lang.github.io/mdBook/) for more information). Before building this book, you need to install [`rust`](https://www.rust-lang.org/). Once `rust` is installed on your machine, run `cargo install mdbook`. To read this book in a browser, simply use `mdbook serve --open`.
